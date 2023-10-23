@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  body{
+    border: 2px solid blue;
+    padding:20px;
+    border-radius: 20px;
+    margin: 100px 20px;
+  }
+    .e-mail{
+      width: 300px;
+      padding: 10px;
+      margin: 10px;
+      font-size: 20px;
+      border-radius: 20px;
+    }
+    .password{
+      width: 300px;
+      padding: 10px;
+      margin: 10px;
+      font-size: 20px;
+      border-radius: 20px;
+    }
+    .head{
+      color: blue;
+      font-size: 60px;
+      text-align: center;
+    }
+    .p{
+      text-align: center;
+    }
+    .log{
+      width: 325px;
+      padding: 10px;
+      margin: 10px;
+      font-size: 20px;
+      background-color: #25dff7;
+      border-radius: 20px;
+    }
+    .forget{
+      text-decoration: none;
+    }
+    .new{
+      text-decoration: none;
+      text-align: center;
+      padding: 10px;
+      background-color: rgb(88,224,102);
+      color: white;
+      border-radius: 20px;
+    }
+  </style>
+   
+    
+      <div>
+        <h1 class="head">facebook</h1>
+        <p class="p">Connect with friends and the world</p>
+        <p class="p">around you on facebook.</p>
+      </div>
+      <form action="text">
+        <input type="e-mail" placeholder="mobile or e-mail" required class="e-mail"><br/>
+      <input type="password" placeholder="password" required class="password"></div>
+      <div>
+        <button type="submit" class="log">log-in</button>
+        <br/>
+        <a href="#" class="forget">Forgot password</a>
+      </div>
+      <hr/>
+     <center> <div> 
+      <a href="http://localhost:8158/F.html" target="blank"class="new">create a new account</a>
+      </div></center>
+</head>
+<body>
+  
+</body>
+</html>
